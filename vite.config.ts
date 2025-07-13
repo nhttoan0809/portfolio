@@ -10,17 +10,18 @@ export default defineConfig({
       "@": resolve(__dirname, "./src"),
     },
   },
+  base: "https://nhttoan0809.github.io/portfolio/",
   build: {
-    outDir: "docs",
+    outDir: "build",
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
       },
-      output: {
-        entryFileNames: "portfolio/[name].js",
-        chunkFileNames: "portfolio/[name].js",
-        assetFileNames: "portfolio/[name].[ext]",
-      },
+      // output: {
+      //   entryFileNames: "portfolio/[name].js",
+      //   chunkFileNames: "portfolio/[name].js",
+      //   assetFileNames: "portfolio/[name].[ext]",
+      // },
     },
     emptyOutDir: true,
   }
