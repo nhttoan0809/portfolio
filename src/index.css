@@ -17,4 +17,95 @@ body {
 
 #root {
   flex-grow: 1;
+
+  --brand-50: rgb(240, 253, 244);
+  --brand-100: rgb(220, 252, 231);
+  --brand-200: rgb(187, 247, 208);
+  --brand-300: rgb(134, 239, 172);
+  --brand-400: rgb(74, 222, 128);
+  --brand-500: rgb(34, 197, 94);
+  --brand-600: rgb(22, 163, 74);
+  --brand-700: rgb(21, 128, 61);
+  --brand-800: rgb(22, 101, 52);
+  --brand-900: rgb(20, 83, 45);
+
+  --neutral-0: rgb(255, 255, 255);
+  --neutral-50: rgb(250, 250, 250);
+  --neutral-100: rgb(245, 245, 245);
+  --neutral-200: rgb(229, 229, 229);
+  --neutral-300: rgb(212, 212, 212);
+  --neutral-400: rgb(163, 163, 163);
+  --neutral-500: rgb(115, 115, 115);
+  --neutral-600: rgb(82, 82, 82);
+  --neutral-700: rgb(64, 64, 64);
+  --neutral-800: rgb(38, 38, 38);
+  --neutral-900: rgb(23, 23, 23);
+  --neutral-950: rgb(10, 10, 10);
+
+  --error-50: rgb(255, 241, 242);
+  --error-100: rgb(255, 228, 230);
+  --error-200: rgb(254, 205, 211);
+  --error-300: rgb(253, 164, 175);
+  --error-400: rgb(251, 113, 133);
+  --error-500: rgb(244, 63, 94);
+  --error-600: rgb(225, 29, 72);
+  --error-700: rgb(190, 18, 60);
+  --error-800: rgb(159, 18, 57);
+  --error-900: rgb(136, 19, 55);
+  
+  --warning-50: rgb(255, 251, 235);
+  --warning-100: rgb(254, 243, 199);
+  --warning-200: rgb(253, 230, 138);
+  --warning-300: rgb(252, 211, 77);
+  --warning-400: rgb(251, 191, 36);
+  --warning-500: rgb(245, 158, 11);
+  --warning-600: rgb(217, 119, 6);
+  --warning-700: rgb(180, 83, 9);
+  --warning-800: rgb(146, 64, 14);
+  --warning-900: rgb(120, 53, 15);
+
+  --success-50: rgb(240, 253, 244);
+  --success-100: rgb(220, 252, 231);
+  --success-200: rgb(187, 247, 208);
+  --success-300: rgb(134, 239, 172);
+  --success-400: rgb(74, 222, 128);
+  --success-500: rgb(34, 197, 94);
+  --success-600: rgb(22, 163, 74);
+  --success-700: rgb(21, 128, 61);
+  --success-800: rgb(22, 101, 52);
+  --success-900: rgb(20, 83, 45);
+
+  
+  --brand-primary: rgb(22, 163, 74);
+  --default-font: rgb(23, 23, 23);
+  --subtext-color: rgb(115, 115, 115);
+  --neutral-border: rgb(229, 229, 229);
+  --white: rgb(255, 255, 255);
+  --default-background: rgb(255, 255, 255);
+}
+
+.dark #root {
+  --brand-50: rgb(19, 40, 25);
+  --brand-100: rgb(22, 48, 29);
+  --brand-200: rgb(25, 57, 33);
+  --brand-300: rgb(29, 68, 39);
+  --brand-400: rgb(36, 85, 48);
+  --brand-500: rgb(47, 110, 59);
+  --brand-600: rgb(70, 167, 88);
+  --brand-700: rgb(85, 180, 103);
+  --brand-800: rgb(99, 193, 116);
+  --brand-900: rgb(229, 251, 235);
+
+  --neutral-0: rgb(10, 10, 10);
+  --neutral-50: rgb(23, 23, 23);
+  --neutral-100: rgb(38, 38, 38);
+  --neutral-200: rgb(64, 64, 64);
+  --neutral-300: rgb(82, 82, 82);
+  --neutral-400: rgb(115, 115, 115);
+  --neutral-500: rgb(163, 163, 163);
+  --neutral-600: rgb(212, 212, 212);
+  --neutral-700: rgb(229, 229, 229);
+  --neutral-800: rgb(245, 245, 245);
+  --neutral-900: rgb(250, 250, 250);
+  --neutral-950: rgb(255, 255, 255);
 }
