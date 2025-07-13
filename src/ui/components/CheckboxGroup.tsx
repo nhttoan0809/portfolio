@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Checkbox Group — https://app.subframe.com/794ca0a6697c/library?component=Checkbox+Group_f9f1b596-c6b3-4d60-aa9a-f34b353f8aa5

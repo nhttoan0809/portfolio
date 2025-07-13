@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Fullscreen Dialog — https://app.subframe.com/794ca0a6697c/library?component=Fullscreen+Dialog_3f094173-71de-4378-a09a-05c482f7a137

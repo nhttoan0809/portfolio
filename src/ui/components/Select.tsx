@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Select — https://app.subframe.com/794ca0a6697c/library?component=Select_bb88f90b-8c43-4b73-9c2f-3558ce7838f3

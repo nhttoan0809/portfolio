@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Drawer — https://app.subframe.com/794ca0a6697c/library?component=Drawer_1e71b2cb-8d72-4e67-b368-8805179e9444

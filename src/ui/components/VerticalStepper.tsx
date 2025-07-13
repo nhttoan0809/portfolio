@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Vertical Stepper — https://app.subframe.com/794ca0a6697c/library?component=Vertical+Stepper_bdc0291d-b5be-40c5-ae2f-527a868488b2

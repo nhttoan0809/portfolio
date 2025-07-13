@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Badge — https://app.subframe.com/794ca0a6697c/library?component=Badge_97bdb082-1124-4dd7-a335-b14b822d0157

@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Stepper — https://app.subframe.com/794ca0a6697c/library?component=Stepper_3c5d47dc-1b1a-45d9-b244-18422d7bfb56

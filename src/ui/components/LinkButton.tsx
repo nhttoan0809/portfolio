@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Link Button — https://app.subframe.com/794ca0a6697c/library?component=Link+Button_a4ee726a-774c-4091-8c49-55b659356024

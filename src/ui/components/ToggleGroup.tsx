@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Toggle Group — https://app.subframe.com/794ca0a6697c/library?component=Toggle+Group_2026f10a-e3cc-4c89-80da-a7259acae3b7

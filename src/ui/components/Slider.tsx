@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Slider — https://app.subframe.com/794ca0a6697c/library?component=Slider_f4092874-0320-449e-a0c5-b435987c4cfb

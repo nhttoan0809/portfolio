@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Table — https://app.subframe.com/794ca0a6697c/library?component=Table_142dfde7-d0cc-48a1-a04c-a08ab2252633

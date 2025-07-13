@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Toast — https://app.subframe.com/794ca0a6697c/library?component=Toast_2c7966c2-a95d-468a-83fe-bf196b95be7a

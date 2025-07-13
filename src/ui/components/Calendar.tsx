@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Calendar — https://app.subframe.com/794ca0a6697c/library?component=Calendar_5a87e517-ace2-49af-adcf-076c97ec3921

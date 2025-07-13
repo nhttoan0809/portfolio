@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Dropdown Menu — https://app.subframe.com/794ca0a6697c/library?component=Dropdown+Menu_99951515-459b-4286-919e-a89e7549b43b

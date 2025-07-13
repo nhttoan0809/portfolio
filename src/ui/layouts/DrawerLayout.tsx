@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Drawer Layout — https://app.subframe.com/794ca0a6697c/library?component=Drawer+Layout_2f6803ed-5ed0-4934-b093-a1a46df2d1d1

@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Tooltip — https://app.subframe.com/794ca0a6697c/library?component=Tooltip_ccebd1e9-f6ac-4737-8376-0dfacd90c9f3

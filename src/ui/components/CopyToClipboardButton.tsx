@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Copy to clipboard button — https://app.subframe.com/794ca0a6697c/library?component=Copy+to+clipboard+button_e8c76626-6462-4f2f-b595-38d530d427e8

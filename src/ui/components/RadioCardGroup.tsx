@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Radio Card Group — https://app.subframe.com/794ca0a6697c/library?component=Radio+Card+Group_6d5193b8-6043-4dc1-aad5-7f902ef872df

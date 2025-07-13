@@ -1,4 +1,4 @@
-"use client";
+
 
 import React from "react";
 import { DefaultPageLayout } from "@/ui/layouts/DefaultPageLayout";

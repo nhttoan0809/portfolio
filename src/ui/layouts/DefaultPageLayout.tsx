@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Default Page Layout — https://app.subframe.com/794ca0a6697c/library?component=Default+Page+Layout_a57b1c43-310a-493f-b807-8cc88e2452cf

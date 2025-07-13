@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Text Field — https://app.subframe.com/794ca0a6697c/library?component=Text+Field_be48ca43-f8e7-4c0e-8870-d219ea11abfe

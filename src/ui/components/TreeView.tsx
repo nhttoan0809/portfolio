@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Tree View — https://app.subframe.com/794ca0a6697c/library?component=Tree+View_4ed46422-ecc3-41e8-8787-e55ee10cdc75

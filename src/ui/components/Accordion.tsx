@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Accordion — https://app.subframe.com/794ca0a6697c/library?component=Accordion_d2e81e20-863a-4027-826a-991d8910efd9

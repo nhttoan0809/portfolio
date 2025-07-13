@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Topbar with center nav — https://app.subframe.com/794ca0a6697c/library?component=Topbar+with+center+nav_2d99c811-1412-432c-b923-b290dd513802

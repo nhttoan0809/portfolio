@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Bar Chart — https://app.subframe.com/794ca0a6697c/library?component=Bar+Chart_4d4f30e7-1869-4980-8b96-617df3b37912

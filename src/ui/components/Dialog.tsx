@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Dialog — https://app.subframe.com/794ca0a6697c/library?component=Dialog_ca59db17-43fb-4247-8094-3c55162e902d

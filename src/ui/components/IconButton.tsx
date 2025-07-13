@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Icon Button — https://app.subframe.com/794ca0a6697c/library?component=Icon+Button_af9405b1-8c54-4e01-9786-5aad308224f6

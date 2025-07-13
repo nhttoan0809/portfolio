@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Alert — https://app.subframe.com/794ca0a6697c/library?component=Alert_3a65613d-d546-467c-80f4-aaba6a7edcd5

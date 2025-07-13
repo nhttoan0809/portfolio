@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Switch — https://app.subframe.com/794ca0a6697c/library?component=Switch_7a464794-9ea9-4040-b1de-5bfb2ce599d9

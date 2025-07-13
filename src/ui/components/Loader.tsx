@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Loader — https://app.subframe.com/794ca0a6697c/library?component=Loader_f2e570c8-e463-45c2-aae9-a960146bc5d5

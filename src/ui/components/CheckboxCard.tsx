@@ -1,4 +1,4 @@
-"use client";
+
 /*
  * Documentation:
  * Checkbox Card — https://app.subframe.com/794ca0a6697c/library?component=Checkbox+Card_de0b4dfb-3946-4702-be52-5678dd71925a
