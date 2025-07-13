@@ -1,4 +1,5 @@
-module.exports = {
+// eslint-disable-next-line no-undef
+export default {
   // ...
 
   theme: {

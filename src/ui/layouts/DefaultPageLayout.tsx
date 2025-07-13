@@ -59,11 +59,27 @@ const DefaultPageLayoutRoot = React.forwardRef<
         }
         rightSlot={
           <>
-            <FeatherSun className="text-body font-body text-default-font" />
-            <FeatherMoon className="text-body font-body text-default-font" />
-            <FeatherSunMoon className="text-body font-body text-default-font" />
-            <FeatherPalette className="text-body font-body text-default-font" />
-            <FeatherLanguages className="text-body font-body text-default-font" />
+            <FeatherSun
+              className="text-body font-body text-default-font cursor-pointer"
+              onClick={() => {
+                const theme = localStorage.getItem("homepage-theme");
+                if (theme === "light") return;
+                localStorage.setItem("homepage-theme", "light");
+                document.body.classList.remove("dark");
+              }}
+            />
+            <FeatherMoon
+              className="text-body font-body text-default-font cursor-pointer"
+              onClick={() => {
+                const theme = localStorage.getItem("homepage-theme");
+                if (theme === "dark") return;
+                localStorage.setItem("homepage-theme", "dark");
+                document.body.classList.add("dark");
+              }}
+            />
+            <FeatherSunMoon className="text-body font-body text-default-font cursor-pointer" />
+            <FeatherPalette className="text-body font-body text-default-font cursor-pointer" />
+            <FeatherLanguages className="text-body font-body text-default-font cursor-pointer" />
             <IconButton
               className="hidden"
               variant="brand-secondary"
