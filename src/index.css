@@ -17,7 +17,9 @@ body {
 
 #root {
   flex-grow: 1;
+}
 
+body {
   --brand-50: rgb(240, 253, 244);
   --brand-100: rgb(220, 252, 231);
   --brand-200: rgb(187, 247, 208);
@@ -84,7 +86,7 @@ body {
   --default-background: rgb(255, 255, 255);
 }
 
-.dark #root {
+body.dark {
   --brand-50: rgb(19, 40, 25);
   --brand-100: rgb(22, 48, 29);
   --brand-200: rgb(25, 57, 33);
@@ -108,4 +110,44 @@ body {
   --neutral-800: rgb(245, 245, 245);
   --neutral-900: rgb(250, 250, 250);
   --neutral-950: rgb(255, 255, 255);
+
+  --error-50: rgb(60, 24, 39);
+  --error-100: rgb(72, 26, 45);
+  --error-200: rgb(84, 27, 51);
+  --error-300: rgb(100, 29, 59);
+  --error-400: rgb(128, 29, 69);
+  --error-500: rgb(174, 25, 85);
+  --error-600: rgb(233, 61, 130);
+  --error-700: rgb(240, 79, 136);
+  --error-800: rgb(247, 97, 144);
+  --error-900: rgb(254, 236, 244);
+  
+  --warning-50: rgb(52, 28, 0);
+  --warning-100: rgb(63, 34, 0);
+  --warning-200: rgb(74, 41, 0);
+  --warning-300: rgb(87, 51, 0);
+  --warning-400: rgb(105, 63, 5);
+  --warning-500: rgb(130, 78, 0);
+  --warning-600: rgb(255, 178, 36);
+  --warning-700: rgb(255, 203, 71);
+  --warning-800: rgb(241, 161, 13);
+  --warning-900: rgb(254, 243, 221);
+
+  --success-50: rgb(19, 40, 25);
+  --success-100: rgb(22, 48, 29);
+  --success-200: rgb(25, 57, 33);
+  --success-300: rgb(29, 68, 39);
+  --success-400: rgb(36, 85, 48);
+  --success-500: rgb(47, 110, 59);
+  --success-600: rgb(70, 167, 88);
+  --success-700: rgb(85, 180, 103);
+  --success-800: rgb(99, 193, 116);
+  --success-900: rgb(229, 251, 235);
+
+  --brand-primary: rgb(70, 167, 88);
+  --default-font: rgb(250, 250, 250);
+  --subtext-color: rgb(163, 163, 163);
+  --neutral-border: rgb(64, 64, 64);
+  --white: rgb(10, 10, 10);
+  --default-background: rgb(10, 10, 10);
 }

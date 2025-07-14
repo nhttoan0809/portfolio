@@ -13,16 +13,6 @@ export default defineConfig({
   base: "https://nhttoan0809.github.io/portfolio/",
   build: {
     outDir: "build",
-    rollupOptions: {
-      input: {
-        main: resolve(__dirname, "index.html"),
-      },
-      // output: {
-      //   entryFileNames: "portfolio/[name].js",
-      //   chunkFileNames: "portfolio/[name].js",
-      //   assetFileNames: "portfolio/[name].[ext]",
-      // },
-    },
     emptyOutDir: true,
   }
 })
