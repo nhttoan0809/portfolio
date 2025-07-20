@@ -72,6 +72,9 @@ const AvatarRoot = React.forwardRef<HTMLElement, AvatarRootProps>(
         ) : null}
         {image ? (
           <img
+            width={64}
+            height={64}
+            loading="lazy"
             className={SubframeUtils.twClassNames(
               "h-8 w-8 flex-none object-cover absolute",
               {

@@ -8,7 +8,7 @@
  * Icon Button — https://app.subframe.com/794ca0a6697c/library?component=Icon+Button_af9405b1-8c54-4e01-9786-5aad308224f6
  */
 
-import React from "react";
+import React, { useEffect } from "react";
 import * as SubframeUtils from "../utils";
 import { TopbarWithCenterNav } from "../components/TopbarWithCenterNav";
 import { ToggleGroup } from "../components/ToggleGroup";
@@ -42,6 +42,14 @@ const DefaultPageLayoutRoot = React.forwardRef<
     return localStorage.getItem("homepage-locale") === "EN" ? "EN" : "VI";
   });
 
+  useEffect(() => {
+    if (theme === "dark") {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  }, [theme]);
+
   return (
     <div
       className={SubframeUtils.twClassNames(
@@ -55,7 +63,7 @@ const DefaultPageLayoutRoot = React.forwardRef<
         leftSlot={
           <img
             className="h-5 flex-none object-cover"
-            src="https://res.cloudinary.com/subframe/image/upload/v1711417507/shared/y2rsnhq3mex4auk54aye.png"
+            src={`${import.meta.env.VITE_PUBLIC_URL}images/y2rsnhq3mex4auk54aye.png`}
           />
         }
         centerSlot={
@@ -73,12 +81,8 @@ const DefaultPageLayoutRoot = React.forwardRef<
             <ToggleGroup
               value={theme}
               onValueChange={(value) => {
-                setTheme(value as "dark" | "light");
-                localStorage.setItem("homepage-theme", value);
-                if (value === "dark") {
-                  document.body.classList.add("dark");
-                } else {
-                  document.body.classList.remove("dark");
+                if (value !== theme && value) {
+                  setTheme(value as "dark" | "light");
                 }
               }}
             >

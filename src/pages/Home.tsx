@@ -1,33 +1,41 @@
-import React from "react";
+// import { Button } from "@/ui/components/Button";
+// import { FeatherEye } from "@subframe/core";
+// import { FeatherMail } from "@subframe/core";
+// import { IconButton } from "@/ui/components/IconButton";
+// import { FeatherDownload } from "@subframe/core";
+// import { FeatherCode } from "@subframe/core";
+// import { Badge } from "@/ui/components/Badge";
+// import { FeatherPenTool } from "@subframe/core";
+// import { FeatherSettings } from "@subframe/core";
+// import { IconWithBackground } from "@/ui/components/IconWithBackground";
+// import { FeatherSearch } from "@subframe/core";
+// import { FeatherZap } from "@subframe/core";
+// import { Avatar } from "@/ui/components/Avatar";
+// import { LinkButton } from "@/ui/components/LinkButton";
+// import { FeatherArrowRight } from "@subframe/core";
+// import { FeatherLayout } from "@subframe/core";
+// import { FeatherSmartphone } from "@subframe/core";
+// import { TextField } from "@/ui/components/TextField";
+// import { TextArea } from "@/ui/components/TextArea";
+// import { FeatherSend } from "@subframe/core";
+// import { FeatherMapPin } from "@subframe/core";
+// import { FeatherPhone } from "@subframe/core";
 import { DefaultPageLayout } from "@/ui/layouts/DefaultPageLayout";
-import { Button } from "@/ui/components/Button";
-import { FeatherEye } from "@subframe/core";
-import { FeatherMail } from "@subframe/core";
-import { IconButton } from "@/ui/components/IconButton";
-import { FeatherDownload } from "@subframe/core";
-import { FeatherCode } from "@subframe/core";
-import { Badge } from "@/ui/components/Badge";
-import { FeatherPenTool } from "@subframe/core";
-import { FeatherSettings } from "@subframe/core";
-import { IconWithBackground } from "@/ui/components/IconWithBackground";
-import { FeatherSearch } from "@subframe/core";
-import { FeatherZap } from "@subframe/core";
-import { Avatar } from "@/ui/components/Avatar";
-import { LinkButton } from "@/ui/components/LinkButton";
-import { FeatherArrowRight } from "@subframe/core";
-import { FeatherLayout } from "@subframe/core";
-import { FeatherSmartphone } from "@subframe/core";
-import { TextField } from "@/ui/components/TextField";
-import { TextArea } from "@/ui/components/TextArea";
-import { FeatherSend } from "@subframe/core";
-import { FeatherMapPin } from "@subframe/core";
-import { FeatherPhone } from "@subframe/core";
+import Hero from "@/ui/mains/Hero";
+import Featured from "@/ui/mains/Featured";
+import Testimonial from "@/ui/mains/Testimonial";
+import Process from "@/ui/mains/Process";
+import Skills from "@/ui/mains/Skills";
+import Services from "@/ui/mains/Services";
+import Contact from "@/ui/mains/Contact";
+import Posts from "@/ui/mains/Posts";
 
 function JohnDoePortfolio() {
   return (
     <DefaultPageLayout>
       <div className="flex w-full flex-col items-start gap-8 px-6 py-12">
-        <div className="flex w-full flex-col items-start gap-4">
+        {/* Hero */}
+        {/* <div className="flex w-full flex-col items-start gap-4">
           <div className="flex w-full flex-col items-start gap-2">
             <span className="text-heading-1 font-heading-1 text-default-font">
               Creating Digital Experiences That Matter
@@ -83,8 +91,11 @@ function JohnDoePortfolio() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="flex w-full flex-col items-start gap-6">
+        </div> */}
+        <Hero />
+
+        {/* Skills */}
+        {/* <div className="flex w-full flex-col items-start gap-6">
           <span className="text-heading-2 font-heading-2 text-default-font">
             Skills
           </span>
@@ -135,8 +146,11 @@ function JohnDoePortfolio() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="flex w-full flex-col items-start gap-6 rounded-md bg-neutral-50 px-6 py-6">
+        </div> */}
+        <Skills />
+
+        {/* Process */}
+        {/* <div className="flex w-full flex-col items-start gap-6 rounded-md bg-neutral-50 px-6 py-6">
           <span className="text-heading-2 font-heading-2 text-default-font">
             My Design Process
           </span>
@@ -178,8 +192,11 @@ function JohnDoePortfolio() {
               </span>
             </div>
           </div>
-        </div>
-        <div className="flex w-full flex-col items-start gap-6">
+        </div> */}
+        <Process />
+
+        {/* Testimonial */}
+        {/* <div className="flex w-full flex-col items-start gap-6">
           <span className="text-heading-2 font-heading-2 text-default-font">
             What Clients Say
           </span>
@@ -248,8 +265,11 @@ function JohnDoePortfolio() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="flex w-full flex-col items-start gap-6 rounded-md bg-neutral-50 px-6 py-6">
+        </div> */}
+        <Testimonial />
+
+        {/* Latest Blog Posts */}
+        {/* <div className="flex w-full flex-col items-start gap-6 rounded-md bg-neutral-50 px-6 py-6">
           <span className="text-heading-2 font-heading-2 text-default-font">
             Latest Blog Posts
           </span>
@@ -317,8 +337,11 @@ function JohnDoePortfolio() {
               </LinkButton>
             </div>
           </div>
-        </div>
-        <div className="flex w-full flex-col items-start gap-6">
+        </div> */}
+        <Posts />
+
+        {/* Featured Work */}
+        {/* <div className="flex w-full flex-col items-start gap-6">
           <span className="text-heading-2 font-heading-2 text-default-font">
             Featured Work
           </span>
@@ -384,8 +407,11 @@ function JohnDoePortfolio() {
               </LinkButton>
             </div>
           </div>
-        </div>
-        <div className="flex w-full flex-col items-start gap-6">
+        </div> */}
+        <Featured />
+
+        {/* Services */}
+        {/* <div className="flex w-full flex-col items-start gap-6">
           <span className="text-heading-2 font-heading-2 text-default-font">
             Services
           </span>
@@ -430,8 +456,11 @@ function JohnDoePortfolio() {
               </span>
             </div>
           </div>
-        </div>
-        <div className="flex w-full flex-col items-start gap-6 rounded-md bg-neutral-50 px-6 py-6">
+        </div> */}
+        <Services />
+
+        {/* Contact */}
+        {/* <div className="flex w-full flex-col items-start gap-6 rounded-md bg-neutral-50 px-6 py-6">
           <span className="text-heading-2 font-heading-2 text-default-font">
             Get in Touch
           </span>
@@ -512,7 +541,8 @@ function JohnDoePortfolio() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+        <Contact />
       </div>
     </DefaultPageLayout>
   );
